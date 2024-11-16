@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;    
+    background-color: black;
+    height: 73px;
+    
+    
+}
+.titulo p{
+    color: #ffffff;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 7px;
+    
+    
+}
+.header{
+    height: 727px;
+    background-image: url(/assets/img/bg-header.jpg);
+    background-size: cover;
+}
+
+.informacion{
+    background: #000000 0% 0% no-repeat padding-box;
+    display: flex;
+    gap: 106px;
+    justify-content: space-around;
+    height: 348px; 
+    flex-wrap: wrap;   
+    
+}
+.informacion p{
+    color: white;
+    width: 475px;
+    text-align: left;
+    height: 197px;
+    font-family: "raleway";
+    font-size: 16px;
+    margin-top: 76px;
+    margin-left: 150px;
+    line-height: 19px;
+}
+.informacion img{
+    width: 399px;
+    height: 237px;
+    margin-top: 45px;
+    margin-right: 150px;
+    margin-left: 106px;
+    
+    
+}
+
+.caracteristicas{
+    background-color: #1E1A13;
+    opacity: 0.98;
+    height: 348px;
+    font-family: "raleway";
+}
+.caracteristicas h2{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 75px;
+    font-size: 40px;
+    font-weight: normal;
+    height: 47px;
+    
+    
+}
+.icono{
+    display: flex;
+    gap: 238px;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.icono p{
+    margin-top: 16.2px;
+    font-size: 25px;
+    padding-bottom: 74px;
+    justify-content: baseline;
+}
+.iguanas{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    height: 348px;
+    opacity: 0.96;
+}
+.iguanas img{
+    padding-top: 73px;
+    width: 316px;
+    height: 202px;
+   
+}
+.footer{
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    height: 102px;
+    text-align: center;
+    opacity: 0.94;
+}
+.footer p{
+    padding-top: 39px;
+    font-family: "raleway";
+    font-weight: lighter;
+    font-size: 20px;
+    height: 24px;
+    
+    
+}
